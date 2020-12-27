@@ -1,3 +1,9 @@
+@font-face {
+    src: url(./Oswald-Medium.ttf);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
 html, body {
     margin: 0;
     width: 100%;
@@ -21,14 +27,14 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: black;
-    font-family: ''Oswald', sans-serif';
+    font-family: 'Roboto';
     letter-spacing: 5px;
 }
 
 #clock{
     width: 100%;
     position: absolute;
-    font-size: 11vw;
+    font-size: 14vw;
     color: black;
     text-align: center;
     font-family: 'Roboto', sans-serif;
